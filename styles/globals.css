@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+  font-feature-settings: "cv11", "ss01";
+}
+
+input, textarea, select {
+  @apply text-slate-900;
+}
+
+.report-section h3 {
+  @apply text-lg font-semibold text-slate-900;
+}
+
+.report-section h4 {
+  @apply text-base font-semibold text-slate-800;
+}
